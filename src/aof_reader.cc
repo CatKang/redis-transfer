@@ -123,7 +123,7 @@ static void usage()
             "   -p: the target port \n"
             "   -a: the target auth \n"
             "   -v: show more information\n"
-            "Example: ./aof -i ./appendonly.aof -h 127.0.0.1 -p 6379 -a abc -v\n", VERSION
+            "Example: ./redis-trans -i ./appendonly.aof -h 127.0.0.1 -p 6379 -a abc -v\n", VERSION
            );
 }
 

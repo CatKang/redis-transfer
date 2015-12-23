@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall -W -DDEBUG -g -O0 -D__XDEBUG__ -fPIC -Wno-unused-function -std=c++11
-OBJECT = berry
+OBJECT = redis-trans
 SRC_DIR = ./src
 OUTPUT = ./output
 
